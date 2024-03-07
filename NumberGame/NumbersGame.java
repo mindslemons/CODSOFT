@@ -5,7 +5,6 @@ public class NumbersGame {
     public static void main(String[] args) {
         Random rand = new Random();
         int randomNumber = rand.nextInt(100)+ 1;
-        System.out.println("Random number is " + randomNumber);
         while(true){
         System.out.println("Enter your  guessing number(1-100):");
         Scanner scanner = new Scanner(System.in);
