@@ -41,7 +41,7 @@ public class ATM {
                     break;
 
                 case 4:
-                    sc.close(); // Close the Scanner before exiting
+                    sc.close();
                     System.exit(0);
             }
         }
